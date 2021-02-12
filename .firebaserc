@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "sample-e35af": {
+      "hosting": {
+        "angular-universal": [
+          "sample-e35af"
+        ]
+      }
+    }
+  }
+}

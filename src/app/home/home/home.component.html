@@ -1,0 +1,17 @@
+<p>home works!</p>
+sachin sapna home
+
+<p>home works!</p>
+<div *ngFor="let item of (list | async); let i = index">
+    {{item.name}}
+</div>
+<div *ngFor="let item of (items | async); let i = index">
+    {{item.name}}
+</div>
+
+
+<button (click)="signUp()">click</button>
+{{user | async | json}}
+
+<img [src]="img" alt="img">
+<!-- <img src="" alt="img"> -->
